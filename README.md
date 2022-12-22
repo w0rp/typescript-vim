@@ -1,6 +1,16 @@
 Typescript Syntax for Vim
 =========================
 
+Fork by w0rp
+------------
+
+This repo has been forked by w0rp to modify the syntax files to fit what w0rp
+wants in his Vim configuration. Otherwise, it should be unchanged from the
+upstream repo.
+
+Repo's Introduction
+-------------------
+
 Syntax file and other settings for [TypeScript](http://typescriptlang.org). The
 syntax file is taken from this [blog
 post](https://docs.microsoft.com/en-us/archive/blogs/interoperability/sublime-text-vi-emacs-typescript-enabled).
@@ -84,9 +94,9 @@ let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\
 Compiler settings
 -----------------
 
-This plugin contains compiler settings to set `makeprg` and `errorformat`. 
+This plugin contains compiler settings to set `makeprg` and `errorformat`.
 The compiler settings enable you to call the `tsc` compiler directly from Vim
-and display any errors or warnings in Vim's QuickFix window. 
+and display any errors or warnings in Vim's QuickFix window.
 
 To run the compiler, enter `:make`, this will run `tsc` against the last saved
 version of your currently edited file.
