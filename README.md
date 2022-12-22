@@ -84,9 +84,9 @@ let g:typescript_opfirst='\%([<>=,?^%|*/&]\|\([-:+]\)\1\@!\|!=\|in\%(stanceof\)\
 Compiler settings
 -----------------
 
-This plugin contains compiler settings to set `makeprg` and `errorformat`. 
+This plugin contains compiler settings to set `makeprg` and `errorformat`.
 The compiler settings enable you to call the `tsc` compiler directly from Vim
-and display any errors or warnings in Vim's QuickFix window. 
+and display any errors or warnings in Vim's QuickFix window.
 
 To run the compiler, enter `:make`, this will run `tsc` against the last saved
 version of your currently edited file.
